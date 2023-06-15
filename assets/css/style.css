@@ -1,0 +1,405 @@
+:root {
+	--maincolor:#4bb84d;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+body {
+	background: linear-gradient(to bottom, #3e2779, #492652);
+  color: #fff;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-position: center;
+  background-position: center !important;
+  background-size: cover !important;
+  min-height: 100vh;
+  position: relative;
+}
+img {max-width: 100%;}
+.winpoint {
+  background: linear-gradient(to top, #a23313 2%, #b1411d, #b64d27 , #b85730, #bc633a);
+  padding: 5px 8px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1ae5d;
+}
+.winpoint i {
+  background: #49160a;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+}
+.winpoint p {
+  background: #49160a;
+  text-transform: uppercase;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin-left: 8px;
+  padding: 2px 22px;
+}
+.winpoint p strong, .winpoint p span {
+  font-size: 16px;
+  font-weight: 600;
+  font-size: calc(0.7rem + ((1vw - 7.68px) * 0.6944));
+}
+.winpoint p span {
+  padding-left: 15px;
+  color: #ffde00;
+}
+.backbtn i {
+  color: #fff ;
+  font-size: 30px;
+  font-size: calc(1.6rem + ((1vw - 7.68px) * 0.6944));
+}
+.backbtn {
+  background: linear-gradient(to top, #7a6ca6 2%, #37247a, #37247a , #37247a, #7a6ca6);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 0 #24175b;
+position: relative;
+border: 0.1px solid #fff !important;
+}
+.addcash-icon {
+  width: 80px;
+  position: absolute;
+  left: -26px;
+  top: -11px;
+}
+.addcash-text {
+  color: #3c2909;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 8px 20px;
+  padding-left: 60px;
+}
+.baccarat-table {
+  background: url('../img/baccarattable.png') no-repeat;
+  height: 70%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+}
+.userPoint {
+  width: 100%;
+  color: #3c2909;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 2px 8px;
+  text-align: center;
+  background: linear-gradient(to top, #ecb75e 2%, #e59141, #f1d159 , #faf0a0, #e5d380);
+  border-radius: 25px;
+  display: block;
+  margin-top: 12px;
+  box-shadow: 0 2px 9px #000;
+  font-size: calc(0.7rem + ((1vw - 7.68px) * 0.6944));
+}
+.backbtn img {
+  filter: brightness(14.5) saturate(0%);
+}
+.winpoint-blance strong {
+  font-weight: 900;
+  background: linear-gradient(to top, #ffec98 2%, #ffeb8c, #ffec96 , #fef0ae, #fcf5d1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: calc(0.7rem + ((1vw - 7.68px) * 0.6944));
+}
+.andarbahar-icon {
+  background: #11093d;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 5px;
+}
+.andarbahar-icon p {
+  background: #932ae4;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+.profileBtn {
+  background: transparent;
+}
+.profileBtn img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d1ae5d;
+}
+.profileBtn span {
+  font-size: 14px;
+}
+.wet-block {
+  background: linear-gradient(to left, #b6a616, #f5e557, #baaa16);
+  border: 2px solid #a3a3a3;
+  border-radius: 4px;
+}
+.wet-block h3 {
+  background: #706600;
+  font-size: 16px;
+  padding: 5px 3px;
+  text-shadow: 0 2px 3px #000;
+  border-bottom: 2px solid #958701;
+  box-shadow: 0 2px 0 #3a3300;
+}
+.wet-block h4 {
+  color: #706600;
+  font-weight: 900;
+  font-size: 42px;
+}
+.wet-block p {
+  color: #706600;
+  font-size: 14px;
+}
+.oddsBtn {
+  background: linear-gradient(to top, #e393f5, #7533c4, #7533c4, #7533c4, #7533c4);
+  border: 0;
+  font-weight: 800;
+  font-size: 22px;
+  text-shadow: 0 3px 2px #000;
+  min-width: 120px;
+  box-shadow: 0 4px 0px #5a1a9d;
+  border-radius: 25px;
+}
+.doubleBtn {
+  background: linear-gradient(to top, #f3dd3f, #b8861b, #b8861b, #b8861b, #b8861b);
+  box-shadow: 0 3px 2px #734919;
+}
+.wheelicon {
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10px !important;
+  bottom: 0px;
+  width: 86%;
+}
+.wheelnumbericon {
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+}
+.bitSelect {
+  top: -4%;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  width: 10%;
+}
+.wheelcenter {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40%;
+}
+.wheelcenter1 {
+  width: 28%;
+}
+.wheelgobtn {
+  width: 19%;
+  height: 19%;
+  border-radius: 50%;
+  font-weight: 800;
+  background: linear-gradient(to top, #fec81d, #fcbc40, #ffe07f, #fbb23c, #fbb23c);
+  font-size: 42px;
+  text-shadow: 0 3px 3px #000;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+.bitSpin {
+  width: 7%;
+  top: -27% !important;
+}
+.betPoint img {
+  width: 90px;
+}
+.chipnumber {
+  color: #333;
+  font-weight: 800;
+  font-size: 22px;
+}
+.chippointnumber {
+  transition: all .1s linear;
+  cursor: pointer;
+}
+.chippointnumber-active {
+  transform: scale(1.3);
+}
+.bittimer {
+  width: 110px;
+  bottom: -15% !important;
+}
+.bittimer span {
+  color: #382200;
+  font-weight: 900;
+  font-size: 36px;
+  top: -16px !important;
+}
+.bit-block::before {
+  content: "";
+  display: block;
+  width: 81%;
+  height: 97%;
+  background: #886ab7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 12px;
+  z-index: -1;
+  border: 2px solid #ffdf38;
+}
+.betPoint {
+  bottom: -38px;
+  right: 9%;
+}
+.gameId {
+  width: 80%;
+  top: -30px;
+}
+.clearPoint {
+  width: 55px;
+  background: transparent;
+  padding: 0;
+  bottom: 31px;
+}
+
+
+
+
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 767px) {
+  .chipbet-block {
+  gap: 1px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+  .bit-block::before {
+    display: none;
+}
+.chipbet-block .col-md-2 {
+  padding: 0 5px;
+}
+.wet-block p, .profileBtn span, .andarbahar-icon p {
+  font-size: 10px;
+}
+.wet-block h4 {
+  font-size: 32px;
+}
+.wet-block h3, .backbtn i {
+  font-size: 12px;
+}
+.winpoint p {
+  padding: 0px 8px;
+  height: 25px;
+  margin-left: 3px !important;
+}
+.winpoint i {
+  width: 25px;
+  height: 25px;
+}
+.winpoint {
+  min-width: inherit !important;
+}
+.profileBtn img {
+  width: 30px;
+  height: 30px;
+}
+.winpoint:nth-child(2) {
+  display: none;
+}
+.backbtn {
+  width: 30px;
+  height: 30px;
+}
+.andarbahar-block {
+  position: absolute;
+  right: -43%;
+  transform: rotate(90deg);
+  top: 26%;
+  z-index: 1;
+}
+.chipbet-block {
+  margin-top: 50px;
+}
+.bittimer {
+  width: 75px;
+  bottom: auto !important;
+  top: -35% !important;
+}
+.bittimer span {
+  font-size: 22px;
+  top: -10px !important;
+}
+.wheel-block {
+  width: 90% !important;
+  margin-top: 100px;
+}
+.betPoint {
+  position: static !important;
+}
+.oddsBtn {
+  font-size: 12px;
+  min-width: 78px;
+  margin-right: 0px !important;
+}
+.oddsBtn:last-child {
+  margin-right: 0px !important;
+}
+.chippointnumber {
+  width: 20% !important;
+  padding: 0 4px;
+  margin-top: 29px;
+}
+.chipnumber {
+  font-size: 14px;
+}
+.gameId {
+  display: none;
+}
+.wheelgobtn {
+  font-size: 14px;
+}
+.clearPoint {
+  display: none;
+}
+
+}
+
