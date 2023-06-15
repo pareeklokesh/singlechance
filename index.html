@@ -18,7 +18,7 @@
         <div class="d-flex ms-2">
         	<div class="winpoint winpoint-blance justify-content-center position-relative" style="min-width: 120px;">
            <strong>8000.00</strong>
-           <label class="mb-0 position-absolute w-100 text-center bottom-0" style="bottom: -25px !important;font-size: 14px">Balance</label>
+           <label class="mb-0 position-absolute w-100 text-center balanceText" style="bottom: -25px;font-size: 14px">Balance</label>
           </div>
           <div class="winpoint ms-2">
             <i class="fa-solid fa-trophy"></i>
@@ -226,6 +226,42 @@
 	</div>
 </div>
 
+<!-- -----------------Menu------------------------- -->
+
+      <div class="lobbyMenu position-fixed top-0">
+        <button class="btn text-uppercase menumodaltext landscape-block">
+        	<img src="assets/img/list.png">Menu
+        </button>
+        <button class="lobbyclose-btn" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+
+        <ul class="pokerMenu-list landscape-block p-0 mb-0">
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><i class="fa-solid fa-forward-step"></i> Resume</a>
+					</li>
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><img src="assets/img/cash.png" width="24">Top up</a>
+					</li>
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><img src="assets/img/switch.png"> Switch Table <span class="upcoming-text">Upcoming</span></a>
+					</li>
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><i class="fa-solid fa-person-arrow-up-from-line"></i> Stand up <span class="upcoming-text">Upcoming</span></a>
+					</li>
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><i class="fa-solid fa-person-arrow-up-from-line"></i> Sit out <span class="upcoming-text">Upcoming</span></a>
+					</li>
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><i class="fa-solid fa-question"></i> How to play <span class="upcoming-text">Upcoming</span></a>
+					</li>
+					<li class="d-block">
+						<a href="#" class="text-uppercase pokernav-item"><i class="fa-solid fa-right-from-bracket"></i> Exit</a>
+					</li>
+				</ul>
+
+      </div>
+
+<!-- -----------------Menu------------------------- -->
+
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 
@@ -233,6 +269,16 @@
 	$('.chippointnumber').click(function(){
 		$(this).addClass('chippointnumber-active').siblings().removeClass('chippointnumber-active');
 	});
+</script>
+<script>
+  $(".lobbymenuBtn").click(function(){
+  $(".lobbyMenu").toggleClass("lobbyMenu-open");
+  });
+  $(".lobbyclose-btn").click(function(){
+
+    $(".lobbyMenu").removeClass("lobbyMenu-open");
+  });
+  
 </script>
 
 </body>
