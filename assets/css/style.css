@@ -610,6 +610,8 @@ a {
 }
 .chipbet-block .col-md-2 {
   width: 20%;
+  padding: 0 2px;
+  margin-bottom: 6px !important;
 }
 .wet-block p, .profileBtn span {
   font-size: 8px;
