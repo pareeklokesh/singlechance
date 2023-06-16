@@ -436,6 +436,20 @@ a {
   height: 40px;
   margin-left: 3px;
 }
+.start-bet span {
+  background: linear-gradient(to top, #d9b258, #8d6321, #905b11, #faed77, #b77b25);
+    background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  font-size: 52px;
+  font-family: 'Luckiest Guy', cursive;
+}
+.start-bet {
+  top: 50%;
+  background: linear-gradient(to left, transparent, #000, transparent);
+  padding: 15px;
+}
 
 
 
@@ -528,11 +542,11 @@ a {
 }
 .andarbahar-block {
   position: absolute;
-  right: -59%;
+  right: -50%;
   transform: rotate(90deg);
-  top: 280px;
+  top: 278px;
   z-index: 1;
-  min-width: 475px;
+  min-width: 410px;
 }
 .chipbet-block {
   margin-top: 100px;
@@ -569,7 +583,11 @@ a {
   font-size: 14px;
 }
 .gameId {
-  display: none;
+  font-size: 4px;
+  margin: 0;
+  width: 100%;
+  top: -2%;
+  padding-right: 24%;
 }
 .wheelgobtn {
   font-size: 14px;
@@ -601,6 +619,11 @@ a {
 }
 .winpoint p span {
   padding-left: 5px;
+}
+.andarbahar-icon p {
+  transform: rotate(-88deg);
+  width: 18px;
+  height: 18px;
 }
 
 }

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/Fontawsome/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
 </head>
 <body>
 <div class="ab-header container-fluid py-3 pt-3 position-relative">
@@ -235,6 +236,11 @@
 	</div>
 </div>
 
+
+<div class="start-bet w-100 position-fixed text-uppercase text-center">
+	<span data-label="Start Bet position-relative">Start Bet</span>
+</div>
+
 <!-- -----------------Menu------------------------- -->
 
       <div class="lobbyMenu position-fixed top-0">
@@ -288,6 +294,13 @@
     $(".lobbyMenu").removeClass("lobbyMenu-open");
   });
   
+</script>
+
+<script>
+	
+		setTimeout(function(){
+			$(".start-bet").hide();
+		}, 2000);
 </script>
 
 </body>
