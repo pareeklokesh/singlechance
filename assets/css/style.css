@@ -199,7 +199,7 @@ border: 0.1px solid #fff !important;
   width: 86%;
 }
 .wheelnumbericon {
-  width: 80%;
+  width: 76%;
   left: 0;
   right: 0;
   margin: auto;
@@ -422,11 +422,20 @@ a {
 
 
 
+
+
 @media (max-width: 1366px) {
   .container {
     max-width: 100%;
     width: 100%;
   }
+  .ab-header {
+  padding-bottom: 60px !important;
+}
+.backbtnpage {
+  bottom: 0px !important;
+}
+
 }
 
 
@@ -438,11 +447,24 @@ a {
   position: relative;
   top: 2px;
 }
+.backbtnpage {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+.backbtnpage {
+  position: absolute;
+  bottom: -72px;
+  left: 15px;
+}
 
 }
 
 
 @media (max-width: 767px) {
+  .ab-header {
+  padding-bottom: 0px !important;
+}
   .bit-block::before {
     display: none;
 }
@@ -485,7 +507,7 @@ a {
   position: absolute;
   right: -59%;
   transform: rotate(90deg);
-  top: 26%;
+  top: 280px;
   z-index: 1;
   min-width: 475px;
 }
@@ -495,7 +517,7 @@ a {
 .bittimer {
   width: 75px;
   bottom: auto !important;
-  top: -35% !important;
+  top: -25% !important;
 }
 .bittimer span {
   font-size: 22px;
@@ -536,6 +558,9 @@ a {
 .balanceText {
   bottom: -18px !important;
 font-size: 10px !important;
+}
+.ab-header .ms-3 {
+  margin-left: 4px !important;
 }
 
 }
