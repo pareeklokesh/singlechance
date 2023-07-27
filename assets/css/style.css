@@ -512,6 +512,9 @@ a {
 
 
 @media (max-width: 767px) {
+  .wheel-block img {
+  width: 96% !important;
+}
   .ab-header {
   padding-bottom: 0px !important;
 }
@@ -555,7 +558,7 @@ a {
 }
 .andarbahar-block {
   position: absolute;
-  right: -50%;
+  right:-190px;
   transform: rotate(90deg);
   top: 278px;
   z-index: 1;
