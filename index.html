@@ -11,7 +11,7 @@
 	 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
 </head>
 <body>
-<div class="ab-header container-fluid py-3 pt-3 position-relative">
+<div class="ab-header container-fluid py-3 pt-3 position-absolute w-100">
   <div class="row justify-content-between align-items-center">
     <div class="w-auto d-flex align-items-center pe-0">
         <button class="backbtn border-0 lobbymenuBtn"><i class="fa-solid fa-bars"></i></button>
@@ -62,10 +62,25 @@
 </div>
 </div>
 
-<div class="container-fluid pb-5 mb-5 position-relative">
-	<div class="container">
+<div class="container-fluid position-relative single-table d-flex flex-wrap align-items-center justify-content-center">
+	<div class="position-absolute bittimer start-0 bottom-0">
+					<img class="w-100" src="assets/img/timer.png">
+					<span class="position-absolute m-auto start-0 end-0 top-0 bottom-0 d-flex align-items-center justify-content-center">30</span>
+				</div>
+	<div class="container single-container position-relative">
 		<p class="gameId position-absolute start-0 start-0 text-end">ID: 123456789012345</p>
-		<div class="row position-relative bit-block align-items-center">
+		<div class="row bit-block pe-2">
+			<div class="col-md-5 wheel-block position-relative">
+			<img class="w-100 d-none d-md-block" src="assets/img/wheel.png" />
+			<img class="w-100 d-block d-md-none" src="assets/img/wheelmb.png" />
+			<button class="border-0 position-absolute end-0 clearPoint"><img class="w-100" src="assets/img/clear.png"></button>
+		</div>
+		<div class="col-md-6 game-block pt-4 mt-2">
+			<img class="w-100 d-none d-md-block" src="assets/img/game.png" />
+			<img class="w-100 d-block d-md-none" src="assets/img/gamemb.png" />
+		</div>
+		</div>
+		<!-- <div class="row position-relative bit-block align-items-center">
 			<div class="col-md-4">
 				<div class="w-100 position-relative wheel-block">
 					<img src="assets/img/wheel.png" />
@@ -232,7 +247,7 @@
 				</div>
 
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 

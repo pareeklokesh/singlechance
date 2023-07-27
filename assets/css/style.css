@@ -22,7 +22,7 @@ body {
 img {max-width: 100%;}
 .winpoint {
   background: linear-gradient(to top, #a23313 2%, #b1411d, #b64d27 , #b85730, #bc633a);
-  padding: 5px 8px;
+  padding: 2px 8px;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ img {max-width: 100%;}
 .winpoint p {
   background: #49160a;
   text-transform: uppercase;
-  height: 35px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,8 +66,8 @@ img {max-width: 100%;}
 }
 .backbtn {
   background: linear-gradient(to top, #7a6ca6 2%, #37247a, #37247a , #37247a, #7a6ca6);
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   font-size: 18px;
   display: flex;
@@ -257,7 +257,8 @@ border: 0.1px solid #fff !important;
 }
 .bittimer {
   width: 90px;
-  bottom: -15% !important;
+  bottom: 4% !important;
+  left: 2% !important;
 }
 .bittimer span {
   color: #382200;
@@ -269,10 +270,10 @@ border: 0.1px solid #fff !important;
   content: "";
   display: block;
   width: 81%;
-  height: 97%;
+  height: 86%;
   background: #886ab7;
   position: absolute;
-  top: 2px;
+  top: 20px;
   right: 6px;
   border-radius: 12px;
   z-index: -1;
@@ -284,13 +285,14 @@ border: 0.1px solid #fff !important;
 }
 .gameId {
   width: 80%;
-  top: -30px;
+  top: -20px;
 }
 .clearPoint {
-  width: 55px;
+  width: 50px;
   background: transparent;
   padding: 0;
-  bottom: 18px;
+  bottom: 14%;
+  right: 3% !important;
 }
 
 
@@ -450,6 +452,13 @@ a {
   background: linear-gradient(to left, transparent, #000, transparent);
   padding: 15px;
 }
+.single-container {
+  max-width: 1110px;
+}
+.single-table {
+  min-height: 99vh;
+  padding-top: 100px;
+}
 
 
 
@@ -459,10 +468,7 @@ a {
 
 
 @media (max-width: 1366px) {
-  .container {
-    max-width: 100%;
-    width: 100%;
-  }
+  
   .ab-header {
   padding-bottom: 60px !important;
 }
@@ -474,6 +480,13 @@ a {
 
 
 @media (min-width: 767px) {
+
+.wheel-block {
+  width: 49%;
+}
+.game-block {
+  width: 51%;
+}
   .chipbet-block {
   gap: 1px;
 }
@@ -554,15 +567,17 @@ a {
 .bittimer {
   width: 75px;
   bottom: auto !important;
-  top: -25% !important;
+  top: 10% !important;
 }
 .bittimer span {
   font-size: 22px;
   top: -10px !important;
 }
 .wheel-block {
-  width: 90% !important;
-  margin-top: 100px;
+  margin-top: 10px;
+}
+.gameId {
+  display: none;
 }
 .betPoint {
   position: static !important;
@@ -583,7 +598,7 @@ a {
   font-size: 14px;
 }
 .gameId {
-  font-size: 4px;
+  font-size: 12px;
   margin: 0;
   width: 100%;
   top: -2%;
@@ -627,6 +642,9 @@ a {
   width: 18px;
   height: 18px;
   animation: animateC 2s as;
+}
+.single-container {
+  max-width: 100%;
 }
 
 }
